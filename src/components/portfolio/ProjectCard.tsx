@@ -14,15 +14,15 @@ interface ProjectCardProps {
 const ProjectCard = ({ project, isReversed = false }: ProjectCardProps) => {
   // Using placeholder images as uploaded images aren't directly accessible
   const placeholderImages = [
-    "public/images/_ (1).jpeg",
-    "public/images/_ (2).jpeg",
-    "public/images/_ (3).jpeg",
-    "public/images/_.jpeg",
-    "public/images/BOON - packaging design for a hair care brand.jpeg",
-    "public/images/Design a Custom Label.jpeg",
-    "public/images/lipgloss cosmetic logo mockup design.jpeg",
-    "public/images/Norma Gold - Pacakaging Design by hardianto81.jpeg",
-    "public/images/The Pickle Pantry Brand Design.jpeg"
+    "/public/images/_ (1).jpeg",
+    "/public/images/_ (2).jpeg",
+    "/public/images/_ (3).jpeg",
+    "/public/images/_.jpeg",
+    "/public/images/BOON - packaging design for a hair care brand.jpeg",
+    "/public/images/Design a Custom Label.jpeg",
+    "/public/images/lipgloss cosmetic logo mockup design.jpeg",
+    "/public/images/Norma Gold - Pacakaging Design by hardianto81.jpeg",
+    "/public/images/The Pickle Pantry Brand Design.jpeg"
   ];
 
   return (
