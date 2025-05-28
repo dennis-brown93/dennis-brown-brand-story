@@ -1,9 +1,9 @@
 
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem, CarouselApi } from "@/components/ui/carousel";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
-  const [api, setApi] = useState<any>();
+  const [api, setApi] = useState<CarouselApi>();
 
   // Auto-play carousel
   useEffect(() => {
