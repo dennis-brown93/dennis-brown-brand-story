@@ -29,7 +29,7 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-white relative">
       <div className="text-center">
-        <h1 className="text-8xl md:text-9xl font-light tracking-tight text-black mb-6">
+        <h1 className="text-6xl md:text-8xl lg:text-9xl font-light tracking-tight text-black mb-6">
           Dennis-Brown
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 font-light tracking-wide">
@@ -37,10 +37,10 @@ const Hero = () => {
         </p>
         <div className="mt-16 w-32 h-32 mx-auto border border-gray-200 rounded-full flex items-center justify-center mb-40">
           <img
-    src="/images/avatar.png" // Update this path to your avatar image
-    alt="Dennis-Brown Avatar"
-    className="w-full h-full object-cover rounded-full border-4 border-gray-300 shadow-lg " 
-  />
+            src="/images/avatar.png"
+            alt="Dennis-Brown Avatar"
+            className="w-full h-full object-cover rounded-full border-4 border-gray-300 shadow-lg" 
+          />
         </div>
       </div>
     

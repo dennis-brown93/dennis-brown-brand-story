@@ -28,12 +28,20 @@ const ProjectCard = ({ project, isReversed = false }: ProjectCardProps) => {
   return (
     <div className={`grid md:grid-cols-2 gap-16 items-center ${isReversed ? 'md:grid-flow-col-dense' : ''}`}>
       <div className={isReversed ? 'md:col-start-2' : ''}>
-        <div className="group overflow-hidden rounded-lg shadow-lg">
+        <div className="group overflow-hidden rounded-lg shadow-lg relative cursor-pointer">
           <img 
             src={placeholderImages[project.imageIndex]} 
             alt={project.title}
             className="w-full h-96 object-cover transition-transform duration-500 ease-out group-hover:scale-105"
           />
+          {/* Full overlay on hover */}
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-75 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+            <img 
+              src={placeholderImages[project.imageIndex]} 
+              alt={project.title}
+              className="max-w-[90%] max-h-[90%] object-contain rounded-lg shadow-2xl"
+            />
+          </div>
         </div>
       </div>
       <div className={`${isReversed ? 'md:col-start-1' : ''} animate-fade-in`}>
