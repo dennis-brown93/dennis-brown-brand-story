@@ -18,8 +18,8 @@ const Hero = () => {
 
   // Sample images for the carousel
   const carouselImages = [
-    "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=300&h=200&fit=crop",
-    "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?w=300&h=200&fit=crop",
+    "images/Design a Custom Label.jpeg=200&fit=crop",
+    "images/lipgloss cosmetic logo mockup design.jpeg=200&fit=crop",
     "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=200&fit=crop",
     "https://images.unsplash.com/photo-1586953209963-b8480e2e3279?w=300&h=200&fit=crop",
     "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=300&h=200&fit=crop"
