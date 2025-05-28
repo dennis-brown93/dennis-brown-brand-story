@@ -10,7 +10,7 @@ const About = () => {
           <div className="space-y-6 text-md leading-relaxed text-gray-700">
             <p>
               Dennis-Brown is a Lagos-based brand design specialist driven by storytelling and simplicity. 
-              With a deep passion for building brands that resonate emotionally and visually, Dennis blends 
+              With a deep passion for building brands that resonate emotionally and visually, Dennis-Brown blends 
               strategy with creativity to deliver elegant design solutions.
             </p>
             <p>
