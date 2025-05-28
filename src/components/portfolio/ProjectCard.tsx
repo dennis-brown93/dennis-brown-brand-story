@@ -38,7 +38,7 @@ const ProjectCard = ({ project, isReversed = false }: ProjectCardProps) => {
     <img 
       src={placeholderImages[project.imageIndex]} 
       alt={project.title}
-      className="max-w-full max-h-[90%] object-contain rounded-lg shadow-2xl"
+      className="max-w-[90%] max-h-[90%] object-contain rounded-lg shadow-2xl"
     />
   </div>
         </div>
