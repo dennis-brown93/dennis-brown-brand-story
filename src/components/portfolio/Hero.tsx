@@ -21,7 +21,7 @@ const Hero = () => {
     "/images/Design a Custom Label.jpeg",
     "/images/lipgloss cosmetic logo mockup design.jpeg",
     "/images/_ (1).jpeg",
-    "images/_ (2).jpeg",
+    "/images/_ (2).jpeg",
     "/images/_ (3).jpeg",
     "/images/Norma Gold - Pacakaging Design by hardianto81.jpeg"
   ];
