@@ -18,11 +18,12 @@ const Hero = () => {
 
   // Sample images for the carousel
   const carouselImages = [
-    "images/Design a Custom Label.jpeg=200&fit=crop",
-    "images/lipgloss cosmetic logo mockup design.jpeg=200&fit=crop",
-    "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=200&fit=crop",
-    "https://images.unsplash.com/photo-1586953209963-b8480e2e3279?w=300&h=200&fit=crop",
-    "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=300&h=200&fit=crop"
+    "images/Design a Custom Label.jpeg",
+    "images/lipgloss cosmetic logo mockup design.jpeg",
+    "images/_ (1).jpeg",
+    "images/_ (2).jpeg",
+    "images/_ (3).jpeg",
+    "images/Norma Gold - Pacakaging Design by hardianto81.jpeg"
   ];
 
   return (
@@ -34,13 +35,17 @@ const Hero = () => {
         <p className="text-xl md:text-2xl text-gray-600 font-light tracking-wide">
           Brand Design Specialist | Lagos, Nigeria
         </p>
-        <div className="mt-16 w-32 h-32 mx-auto border border-gray-200 rounded-full flex items-center justify-center">
-          <span className="text-4xl font-light text-gray-400">DB</span>
+        <div className="mt-16 w-32 h-32 mx-auto border border-gray-200 rounded-full flex items-center justify-center mb-40">
+          <img
+    src="/images/avatar.png" // Update this path to your avatar image
+    alt="Dennis-Brown Avatar"
+    className="w-full h-full object-cover rounded-full border-4 border-gray-300 shadow-lg " 
+  />
         </div>
       </div>
-      
+    
       {/* Carousel at bottom left */}
-      <div className="absolute bottom-8 left-8 w-80">
+      <div className="absolute bottom-8 left-8 w-80 md:w-96">
         <Carousel 
           setApi={setApi}
           opts={{
@@ -56,7 +61,7 @@ const Hero = () => {
                   <img 
                     src={image} 
                     alt={`Portfolio preview ${index + 1}`}
-                    className="w-full h-32 object-cover"
+                    className="w-full h-48 object-cover"
                   />
                 </div>
               </CarouselItem>

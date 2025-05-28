@@ -1,5 +1,5 @@
 
-import { Mail, Instagram, Globe } from "lucide-react";
+import { Mail, Instagram, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -18,7 +18,7 @@ const Contact = () => {
             className="flex items-center gap-3 text-lg text-black hover:text-gray-600 transition-colors"
           >
             <Mail className="w-6 h-6" />
-            dennisbrown.design@gmail.com
+            ademesoadedamola@gmail.com
           </a>
           
           <a 
@@ -26,18 +26,14 @@ const Contact = () => {
             className="flex items-center gap-3 text-lg text-black hover:text-gray-600 transition-colors"
           >
             <Instagram className="w-6 h-6" />
-            @dennisbrown.design
+            @life_of_a_dezigner
           </a>
-          
-          <a 
-            href="#"
-            className="flex items-center gap-3 text-lg text-black hover:text-gray-600 transition-colors"
-          >
-            <Globe className="w-6 h-6" />
-            dennisbrown.design
+        
+          <a href="whatsapp://send?text=Hello%20Dennis-Brown!%20I'm%20interested%20in%20your%20work." className="flex items-center gap-3 text-lg text-black hover:text-gray-600 transition-colors">
+            <Phone className="w-6 h-6" />
+            08101299630
           </a>
         </div>
-        
         <div className="mt-16 pt-8 border-t border-gray-200">
           <p className="text-gray-500 text-sm">
             © 2024 Dennis-Brown. All rights reserved.

@@ -7,7 +7,7 @@ const About = () => {
           <h2 className="text-5xl md:text-6xl font-light mb-12 text-black">
             About Me
           </h2>
-          <div className="space-y-6 text-lg leading-relaxed text-gray-700">
+          <div className="space-y-6 text-md leading-relaxed text-gray-700">
             <p>
               Dennis-Brown is a Lagos-based brand design specialist driven by storytelling and simplicity. 
               With a deep passion for building brands that resonate emotionally and visually, Dennis blends 
@@ -21,7 +21,11 @@ const About = () => {
         </div>
         <div className="flex justify-center">
           <div className="w-80 h-80 bg-gray-100 rounded-full flex items-center justify-center">
-            <span className="text-6xl font-light text-gray-400">DB</span>
+            <img
+              src="/images/avatar.png" // Update this path to your avatar image
+              alt="Dennis-Brown Avatar"
+              className="w-full h-full object-cover rounded-full border-4 border-gray-300 shadow-lg"
+            />
           </div>
         </div>
       </div>
