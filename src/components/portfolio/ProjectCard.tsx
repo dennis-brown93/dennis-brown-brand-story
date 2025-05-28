@@ -26,17 +26,19 @@ const ProjectCard = ({ project, isReversed = false }: ProjectCardProps) => {
   return (
     <div className={`grid md:grid-cols-2 gap-16 items-center ${isReversed ? 'md:grid-flow-col-dense' : ''}`}>
       <div className={isReversed ? 'md:col-start-2' : ''}>
-        <img 
-          src={placeholderImages[project.imageIndex]} 
-          alt={project.title}
-          className="w-full h-96 object-cover rounded-lg shadow-lg"
-        />
+        <div className="group overflow-hidden rounded-lg shadow-lg">
+          <img 
+            src={placeholderImages[project.imageIndex]} 
+            alt={project.title}
+            className="w-full h-96 object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+          />
+        </div>
       </div>
-      <div className={isReversed ? 'md:col-start-1' : ''}>
-        <h3 className="text-3xl md:text-4xl font-light mb-6 text-black">
+      <div className={`${isReversed ? 'md:col-start-1' : ''} animate-fade-in`}>
+        <h3 className="text-3xl md:text-4xl font-light mb-6 text-black animate-fade-in animation-delay-200">
           {project.title}
         </h3>
-        <p className="text-lg leading-relaxed text-gray-700">
+        <p className="text-lg leading-relaxed text-gray-700 animate-fade-in animation-delay-400">
           {project.description}
         </p>
       </div>
